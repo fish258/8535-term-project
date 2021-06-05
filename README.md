@@ -21,6 +21,7 @@ Change initiation of Dictionary with DCT.
 ## python test case files
 1.inpainting_gray_lena.py: 
 test of example 3
+
 2.inpainting_gray_claudia.py: 
 test of example 2
 
