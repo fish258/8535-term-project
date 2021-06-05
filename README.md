@@ -2,21 +2,26 @@
 Compress Sensing for image denoising&amp;inpainting
 
 # Intro to code
-
-## 1. denoising.ipynb
-Remove noise from noisy pictures
-
-## 2. Inpainting.ipynb
-Restore Image's color
-
-
-## 3. some parameters
+## 1. some parameters
 1. patch_size - Integer, the size of square sliding window
 2. sigma - Sigma for Gaussian Noise
 3. window_stride - Integer, the stride of sliding window
 4. num_dict - the number of columns of dictionary D.
 5. ksvd_iter - Iteration number of Ksvd (E step + M sep)
 6. max_sparsity - the max sparsity of sparse vector x.
+
+## jupyter ipynb files
+1. denoising.ipynb
+Functions of removing noise from noisy pictures
+2. Inpainting.ipynb
+Functions of Restore Image's color
+3. Inpainting DCT.ipynb
+Change initiation of Dictionary with DCT.
+
+## python test case files
+
+
+
 
 ## configure
 ### 1. denoising
