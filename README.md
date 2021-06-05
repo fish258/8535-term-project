@@ -19,9 +19,28 @@ Functions of Restore Image's color
 Change initiation of Dictionary with DCT.
 
 ## python test case files
+1.inpainting_gray_lena.py
+test of example 3
+2.inpainting_gray_claudia.py
+test of example 2
+--------------------------------
+3.inpainting_gray_girls.py
+test of example 4
 
+this case is a given mask case. So the step of how to
+get mask is slightly different from the inpainting above
+--------------------------------
+4.inpainting_colored_parrot.py
+test of example 5
 
+in order to test this case. we need to first run this py for 
+each color channel. And then use 'merge_three_channel.py' to
+get a color inpainting image.
+--------------------------------
+5.inpainting_colored_glasses.py
+test of question 4.3
 
+similar to 4
 
 ## configure
 ### 1. denoising
